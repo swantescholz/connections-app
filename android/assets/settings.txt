@@ -1,0 +1,25 @@
+{
+	gravity: "0.0 -9.81",
+	defaultCircleSegments: 16,
+	relativeSelectionHalfSize: 0.08,
+	maxRelativeViewportWidthVsLevelWidth: 2.0,
+	relativeCharacterHeight: 1.4,
+	magicImpulseStrength: 50000,
+	defaultFloat2StringDecimalPlaces: 20,
+	defaultLineWidth: 3.0,
+	thickLineWidth: 6.0,
+	defaultFriction: 0.3,
+	defaultDensity: 4.0,
+	defaultRestitution: 0.1,
+	defaultViewportWidthInUnits: 52.0,
+	defaultLevelWidth: 50.0,
+	defaultLevelHeight: 60.0,
+	defaultTimeStep: 0.016666668,
+	defaultLongClickInterval: 0.7,
+	defaultSelectionColor: "0.85490197 0.64705884 0.1254902 1.0",
+	defaultConnectionColor: "1.0 0.84313726 0.0 1.0",
+	defaultStaticLevelColor: "0.41960785 0.5568628 0.13725491 1.0",
+	defaultBorderColor: "1.0 1.0 1.0 1.0"
+	defaultButtonBgColor: "0.5039 0.5039 0.5294 1.0",
+	defaultButtonTextColor: "1.0 1.0 1.0 1.0"
+}

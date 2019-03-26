@@ -1,0 +1,8 @@
+
+title: "Outside of the Box",
+introText: "Some people are less open to new ideas than others. Fuck them!"
+width: 200.0,
+height:150.0,
+instances: [
+	{shape: square, transform: {dx: 80.0,dy: 80.0,scalex: 10.0,scaley: 10.0,angle:0}},
+]

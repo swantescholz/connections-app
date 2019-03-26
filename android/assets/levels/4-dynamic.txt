@@ -1,0 +1,82 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 40,
+			y: 80,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 1,
+			x: 40,
+			y: 65,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 2,
+			x: 65,
+			y: 80,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 3,
+			x: 65,
+			y: 65,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.5758925,
+			ego: 0.5,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 4,
+			x: 90,
+			y: 80,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 5,
+			x: 90,
+			y: 65,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.5,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 0,
+			to: 3,
+			type: Love
+		},
+		{
+			from: 2,
+			to: 5,
+			type: Love
+		},
+		{
+			from: 1,
+			to: 4,
+			type: Love
+		}
+	]
+}

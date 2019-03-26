@@ -1,0 +1,231 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 66.51813,
+			y: 46.855022,
+			corners: 7,
+			angle: 4.8381467,
+			ego: 0.54673976,
+			reliability: 0.009224832,
+			empathy: 0.05
+		},
+		{
+			index: 1,
+			x: 102.179504,
+			y: 75.99971,
+			corners: 0,
+			angle: -1614.9341,
+			ego: 0.56294966,
+			reliability: 0.10449064,
+			empathy: 0.5
+		},
+		{
+			index: 2,
+			x: 53.590343,
+			y: 131.40598,
+			corners: 3,
+			angle: 0.0065082605,
+			ego: 0.73315203,
+			reliability: 0.57003427,
+			empathy: 0.5
+		},
+		{
+			index: 3,
+			x: 137.47092,
+			y: 127.241684,
+			corners: 8,
+			angle: -3189.2412,
+			ego: 0.012806594,
+			reliability: 0.8388903,
+			empathy: 0.5
+		},
+		{
+			index: 4,
+			x: 193.09383,
+			y: 3.4827564,
+			corners: 8,
+			angle: -0.018139893,
+			ego: 0.9,
+			reliability: 0.7257748,
+			empathy: 0.5
+		},
+		{
+			index: 5,
+			x: 162.75406,
+			y: 123.37485,
+			corners: 6,
+			angle: 776.0154,
+			ego: 0.4,
+			reliability: 0.2,
+			empathy: 0.5
+		},
+		{
+			index: 6,
+			x: 149.07141,
+			y: 61.50544,
+			corners: 6,
+			angle: 0.0,
+			ego: 0.08306235,
+			reliability: 0.18598962,
+			empathy: 0.5
+		},
+		{
+			index: 7,
+			x: 61.32402,
+			y: 92.73759,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.30687112,
+			reliability: 0.7223571,
+			empathy: 0.5
+		},
+		{
+			index: 8,
+			x: 122.598465,
+			y: 139.73454,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.71503097,
+			reliability: 0.064273596,
+			empathy: 0.5
+		},
+		{
+			index: 9,
+			x: 176.4367,
+			y: 138.2473,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.3591653,
+			reliability: 0.4629578,
+			empathy: 0.5
+		},
+		{
+			index: 10,
+			x: 141.04028,
+			y: 9.154404,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.0044855475,
+			reliability: 0.6668493,
+			empathy: 0.5
+		},
+		{
+			index: 11,
+			x: 9.865379,
+			y: 20.754913,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.68950397,
+			reliability: 0.3484202,
+			empathy: 0.5
+		},
+		{
+			index: 12,
+			x: 41.0975,
+			y: 122.18504,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.3387696,
+			reliability: 0.606458,
+			empathy: 0.5
+		},
+		{
+			index: 13,
+			x: 25.035263,
+			y: 140.62689,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.93236804,
+			reliability: 0.97154695,
+			empathy: 0.5
+		},
+		{
+			index: 14,
+			x: 14.029655,
+			y: 82.62432,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.86574584,
+			reliability: 0.5338442,
+			empathy: 0.5
+		},
+		{
+			index: 15,
+			x: 181.79077,
+			y: 102.25596,
+			corners: 7,
+			angle: 0.0,
+			ego: 0.044944286,
+			reliability: 0.17898798,
+			empathy: 0.5
+		},
+		{
+			index: 16,
+			x: 44.964333,
+			y: 110.58453,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.21757036,
+			reliability: 0.20340371,
+			empathy: 0.5
+		},
+		{
+			index: 17,
+			x: 77.12567,
+			y: 118.08713,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.1,
+			reliability: 0.4,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 0,
+			to: 1,
+			type: Abuse
+		},
+		{
+			from: 2,
+			to: 3,
+			type: Friendship
+		},
+		{
+			from: 4,
+			to: 5,
+			type: Resentment
+		},
+		{
+			from: 6,
+			to: 7,
+			type: Hug
+		},
+		{
+			from: 8,
+			to: 9,
+			type: Codependency
+		},
+		{
+			from: 10,
+			to: 11,
+			type: Love
+		},
+		{
+			from: 12,
+			to: 13,
+			type: Family
+		},
+		{
+			from: 14,
+			to: 15,
+			type: Crush
+		},
+		{
+			from: 17,
+			to: 16,
+			type: Work
+		}
+	]
+}

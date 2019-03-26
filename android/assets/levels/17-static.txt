@@ -1,0 +1,15 @@
+
+title: "Pondering at the Pond",
+introText: "Quack!\nYou sit down on a bench in a little park. Lost in thought, you watch two ducks, swimming in the pond with their numerous ducklings."
+width: 200.0,
+height:150.0,
+instances: [
+	{shape: duck, transform: {scalex: 20, scaley: 15, dx: 55, dy:40}},
+	{shape: duck, transform: 
+	{scalex: -20, scaley: 15, dx: 50, dy:110}},
+	{shape: duck, transform: {scalex: -20, scaley: 15, dx: 135, dy:40}},
+	{shape: duck, transform: 
+	{scalex: 20, scaley: 15, dx: 150, dy:110}},
+	{shape: duck, transform: 
+	{scalex: 20, scaley: 15, dx: 95, dy:75}},
+]

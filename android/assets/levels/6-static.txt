@@ -1,0 +1,9 @@
+
+title: "Rejection",
+introText: "Some connections are inherently asymmetrical. People you admire might not always reciprocrate that feeling. Better move on in such cases."
+width: 200.0,
+height:150.0,
+instances: [
+	{shape: trapezoid, transform: {dx: 80.0,dy: 70.0,scalex: 70.0,scaley: -12.0,angle:0}},
+	{shape: triangle, transform: {dx: 170.0,dy: 75.0,scalex: 15.0,scaley: -62.0,angle:0}},
+]

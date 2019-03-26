@@ -1,0 +1,11 @@
+
+title: "Take it Slow",
+introText: "From day to day, you might get the feeling that your connections are not evolving as quickly as you might want them to. But when looking at the details, you might find out that things are gradually improving. Have some patience."
+width: 250.0,
+height:150.0,
+instances: [
+	{shape: snail, transform: {scalex: 20, scaley: 15, dx: 80, dy:40}},
+	{shape: snail, transform: {scalex: -20, scaley: 15, dx: 150, dy:40}},
+	{shape: snail, transform: {scalex: -20, scaley: 15, dx: 130, dy:90, angle:-90}},
+	{shape: snail, transform: {scalex: -20, scaley: 15, dx: 100, dy:90, angle:90}},
+]

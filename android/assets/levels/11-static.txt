@@ -1,0 +1,8 @@
+
+title: "Nine-to-Five",
+introText: "Some connections are not much fun, but you continue them anyway."
+width: 200.0,
+height:150.0,
+instances: [
+	{shape: elephant, transform: {scalex: 20, scaley: 15, dx: 80, dy:50}},
+]

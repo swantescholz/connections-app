@@ -1,0 +1,9 @@
+
+title: "Up and Down",
+introText: "Some relationships are healthier than others."
+width: 200.0,
+height:150.0,
+instances: [
+	{shape: lineup, transform: {scalex: 10, scaley: 15, dx: 80, dy:80}},
+	{shape: lineup, transform: {scalex: 10, scaley: -15, dx: 80, dy:40}},
+]

@@ -1,0 +1,171 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 56.550552,
+			y: 226.28094,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 1,
+			x: 142.47157,
+			y: 226.95747,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 3,
+			x: 78.199936,
+			y: 168.77473,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 4,
+			x: 27.78757,
+			y: 168.86084,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 2,
+			x: 140.61652,
+			y: 173.77322,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 5,
+			x: 192.96936,
+			y: 176.36592,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 6,
+			x: 181.03455,
+			y: 98.4142,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 7,
+			x: 133.33821,
+			y: 98.4142,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 8,
+			x: 81.92093,
+			y: 98.4142,
+			corners: 7,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 9,
+			x: 30.841896,
+			y: 99.09075,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 10,
+			x: 57.22709,
+			y: 69.6611,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 11,
+			x: 103.23204,
+			y: 69.99938,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 12,
+			x: 146.93623,
+			y: 69.57794,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.5,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 0,
+			to: 4,
+			type: Work
+		},
+		{
+			from: 1,
+			to: 8,
+			type: Work
+		},
+		{
+			from: 2,
+			to: 7,
+			type: Work
+		},
+		{
+			from: 3,
+			to: 1,
+			type: Work
+		},
+		{
+			from: 6,
+			to: 5,
+			type: Work
+		},
+		{
+			from: 9,
+			to: 10,
+			type: Work
+		},
+		{
+			from: 12,
+			to: 11,
+			type: Work
+		}
+	]
+}

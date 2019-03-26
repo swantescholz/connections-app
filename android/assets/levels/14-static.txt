@@ -1,0 +1,8 @@
+
+title: "Wrecking Ball",
+introText: "Some people just seek destruction."
+width: 200.0,
+height:200.0,
+instances: [
+	{shape: square, transform: {dx: 60.0,dy: 40.0,scalex: 25.0,scaley: 2.0,angle:0}},
+]

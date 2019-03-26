@@ -1,0 +1,53 @@
+{
+	timeToSimulate: 28.099743,
+	goals: [
+		{
+			personIndex: 0,
+			x: 49.54903,
+			y: 178.88098,
+			angle: -1.0585229E-6
+		},
+		{
+			personIndex: 1,
+			x: 63.789772,
+			y: 179.6305,
+			angle: 0.0
+		},
+		{
+			personIndex: 2,
+			x: 21.188278,
+			y: 74.72603,
+			angle: 433.19522
+		},
+		{
+			personIndex: 3,
+			x: 7.5289364,
+			y: 19.124014,
+			angle: 89.998146
+		},
+		{
+			personIndex: 4,
+			x: 9.449589,
+			y: 6.380923,
+			angle: 89.99957
+		},
+		{
+			personIndex: 5,
+			x: 32.680138,
+			y: 12.789864,
+			angle: -3905.116
+		},
+		{
+			personIndex: 6,
+			x: 32.76644,
+			y: 42.78974,
+			angle: 59.42133
+		},
+		{
+			personIndex: 7,
+			x: 11.048696,
+			y: 27.852161,
+			angle: 15.76084
+		}
+	]
+}

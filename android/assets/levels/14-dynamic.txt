@@ -1,0 +1,121 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 49.54903,
+			y: 178.88098,
+			corners: 7,
+			angle: 0.0,
+			ego: 0.831441,
+			reliability: 0.24053639,
+			empathy: 0.5
+		},
+		{
+			index: 1,
+			x: 63.789772,
+			y: 179.6305,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.6374174,
+			reliability: 0.30905056,
+			empathy: 0.5
+		},
+		{
+			index: 2,
+			x: 176.89764,
+			y: 174.50899,
+			corners: 0,
+			angle: 0.0,
+			ego: 2.2,
+			reliability: 0.9,
+			empathy: 0.5
+		},
+		{
+			index: 3,
+			x: 41.257164,
+			y: 50.36857,
+			corners: 4,
+			angle: 0.0,
+			ego: 3.0,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 4,
+			x: 41.804066,
+			y: 67.703285,
+			corners: 4,
+			angle: 0.0,
+			ego: 3.0,
+			reliability: 0.5,
+			empathy: 0.5
+		},
+		{
+			index: 5,
+			x: 25.0,
+			y: 90.0,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.4,
+			reliability: 0.02308184,
+			empathy: 0.5
+		},
+		{
+			index: 6,
+			x: 55.0,
+			y: 90.0,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.4,
+			reliability: 0.27495396,
+			empathy: 0.5
+		},
+		{
+			index: 7,
+			x: 40.0,
+			y: 111.67469,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.4,
+			reliability: 0.3679757,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 1,
+			to: 2,
+			type: Codependency
+		},
+		{
+			from: 5,
+			to: 7,
+			type: Codependency
+		},
+		{
+			from: 6,
+			to: 7,
+			type: Codependency
+		},
+		{
+			from: 5,
+			to: 6,
+			type: Codependency
+		},
+		{
+			from: 1,
+			to: 0,
+			type: Abuse
+		},
+		{
+			from: 0,
+			to: 1,
+			type: Abuse
+		},
+		{
+			from: 3,
+			to: 4,
+			type: Family
+		}
+	]
+}

@@ -1,0 +1,171 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 117.90383,
+			y: 520.4286,
+			corners: 0,
+			angle: -173.9074,
+			ego: 5.0,
+			reliability: 0.6,
+			empathy: 0.1
+		},
+		{
+			index: 1,
+			x: 75.69245,
+			y: 414.3188,
+			corners: 8,
+			angle: -9570.297,
+			ego: 0.2,
+			reliability: 0.8,
+			empathy: 0.5
+		},
+		{
+			index: 2,
+			x: 47.820568,
+			y: 417.00467,
+			corners: 0,
+			angle: -53.316074,
+			ego: 0.2,
+			reliability: 0.8,
+			empathy: 0.5
+		},
+		{
+			index: 3,
+			x: 101.918144,
+			y: 403.9649,
+			corners: 0,
+			angle: -17.278439,
+			ego: 0.1,
+			reliability: 0.8,
+			empathy: 0.5
+		},
+		{
+			index: 5,
+			x: 165.28754,
+			y: 326.47983,
+			corners: 4,
+			angle: 2352.978,
+			ego: 0.4,
+			reliability: 0.1,
+			empathy: 0.5
+		},
+		{
+			index: 6,
+			x: 213.80933,
+			y: 330.21228,
+			corners: 4,
+			angle: 5225.002,
+			ego: 0.4,
+			reliability: 0.1,
+			empathy: 0.5
+		},
+		{
+			index: 7,
+			x: 186.93571,
+			y: 382.83963,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.4,
+			reliability: 0.1,
+			empathy: 0.5
+		},
+		{
+			index: 4,
+			x: 189.17413,
+			y: 317.7983,
+			corners: 5,
+			angle: 148.95815,
+			ego: 0.08306235,
+			reliability: 0.18598962,
+			empathy: 0.5
+		},
+		{
+			index: 9,
+			x: 71.4587,
+			y: 69.78378,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.3332184,
+			reliability: 0.25277615,
+			empathy: 0.5
+		},
+		{
+			index: 11,
+			x: 158.8937,
+			y: 182.90259,
+			corners: 3,
+			angle: 0.0016517035,
+			ego: 0.8791825,
+			reliability: 0.9,
+			empathy: 0.5
+		},
+		{
+			index: 8,
+			x: 116.280655,
+			y: 277.71613,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.1170066,
+			reliability: 0.59754527,
+			empathy: 0.5
+		},
+		{
+			index: 12,
+			x: 131.82542,
+			y: 125.491066,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.61303574,
+			reliability: 0.9848415,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 1,
+			to: 2,
+			type: Codependency
+		},
+		{
+			from: 1,
+			to: 3,
+			type: Codependency
+		},
+		{
+			from: 4,
+			to: 6,
+			type: Family
+		},
+		{
+			from: 5,
+			to: 6,
+			type: Codependency
+		},
+		{
+			from: 5,
+			to: 7,
+			type: Codependency
+		},
+		{
+			from: 6,
+			to: 7,
+			type: Codependency
+		},
+		{
+			from: 8,
+			to: 11,
+			type: Codependency
+		},
+		{
+			from: 9,
+			to: 12,
+			type: Codependency
+		},
+		{
+			from: 11,
+			to: 12,
+			type: Codependency
+		}
+	]
+}

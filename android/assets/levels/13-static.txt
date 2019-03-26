@@ -1,0 +1,9 @@
+
+title: "Self-Referentiality",
+introText: "Sometimes, game creators misuse narrative elements in order to introduce game mechanics that don't really make much sense story-wise. You could say, they are abusing the player's trust.\nJust like in this level."
+width: 200.0,
+height:150.0,
+instances: [
+	{shape: square, transform: {dx: 40.0,dy: 60.0,scalex: 25.0,scaley: 2.0,angle:0}},
+	{shape: square, transform: {dx: 160.0,dy: 60.0,scalex: 25.0,scaley: 2.0,angle:0}},
+]

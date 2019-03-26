@@ -1,0 +1,46 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 43.364822,
+			y: 78.31813,
+			corners: 7,
+			angle: 0.0,
+			ego: 0.831441,
+			reliability: 0.24053639,
+			empathy: 0.5
+		},
+		{
+			index: 1,
+			x: 96.06746,
+			y: 102.533905,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.6374174,
+			reliability: 0.30905056,
+			empathy: 0.5
+		},
+		{
+			index: 2,
+			x: 76.82626,
+			y: 52.146126,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.1170066,
+			reliability: 0.59754527,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 0,
+			to: 2,
+			type: Work
+		},
+		{
+			from: 1,
+			to: 2,
+			type: Work
+		}
+	]
+}

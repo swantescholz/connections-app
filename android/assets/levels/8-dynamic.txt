@@ -1,0 +1,111 @@
+{
+	persons: [
+		{
+			index: 1,
+			x: 79.320175,
+			y: 78.25723,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.7,
+			reliability: 0.1,
+			empathy: 0.1
+		},
+		{
+			index: 0,
+			x: 82.56068,
+			y: 9.212654,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.7,
+			empathy: 0.7
+		},
+		{
+			index: 2,
+			x: 105.26491,
+			y: 23.636517,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.7,
+			empathy: 0.7
+		},
+		{
+			index: 3,
+			x: 46.2339,
+			y: 33.519524,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.7,
+			empathy: 0.7
+		},
+		{
+			index: 5,
+			x: 17.119057,
+			y: 73.8529,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.7,
+			empathy: 0.7
+		},
+		{
+			index: 7,
+			x: 166.79416,
+			y: 67.14395,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.7,
+			empathy: 0.7
+		}
+	],
+	connections: [
+		{
+			from: 1,
+			to: 5,
+			type: Resentment
+		},
+		{
+			from: 1,
+			to: 7,
+			type: Resentment
+		},
+		{
+			from: 1,
+			to: 0,
+			type: Resentment
+		},
+		{
+			from: 1,
+			to: 2,
+			type: Resentment
+		},
+		{
+			from: 1,
+			to: 3,
+			type: Resentment
+		},
+		{
+			from: 5,
+			to: 7,
+			type: Love
+		},
+		{
+			from: 2,
+			to: 3,
+			type: Love
+		},
+		{
+			from: 0,
+			to: 3,
+			type: Love
+		},
+		{
+			from: 0,
+			to: 2,
+			type: Love
+		}
+	]
+}

@@ -1,0 +1,126 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 161.97519,
+			y: 127.65498,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.9,
+			reliability: 0.9,
+			empathy: 0.7
+		},
+		{
+			index: 1,
+			x: 38.449806,
+			y: 127.22065,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.8,
+			reliability: 0.9,
+			empathy: 0.5
+		},
+		{
+			index: 2,
+			x: 160.86224,
+			y: 143.5144,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.3332184,
+			reliability: 0.1,
+			empathy: 0.5
+		},
+		{
+			index: 3,
+			x: 176.19168,
+			y: 105.4859,
+			corners: 7,
+			angle: 0.0,
+			ego: 0.831441,
+			reliability: 0.1,
+			empathy: 0.5
+		},
+		{
+			index: 4,
+			x: 5.0872574,
+			y: 142.87604,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.6374174,
+			reliability: 0.1,
+			empathy: 0.5
+		},
+		{
+			index: 8,
+			x: 175.07874,
+			y: 142.213,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.8791825,
+			reliability: 0.1,
+			empathy: 0.5
+		},
+		{
+			index: 9,
+			x: 15.415367,
+			y: 136.99234,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.17597675,
+			reliability: 0.1,
+			empathy: 0.5
+		},
+		{
+			index: 6,
+			x: 17.014359,
+			y: 118.47322,
+			corners: 7,
+			angle: 0.0,
+			ego: 0.54673976,
+			reliability: 0.009224832,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 0,
+			to: 1,
+			type: Hug
+		},
+		{
+			from: 0,
+			to: 1,
+			type: Family
+		},
+		{
+			from: 0,
+			to: 3,
+			type: Family
+		},
+		{
+			from: 0,
+			to: 6,
+			type: Family
+		},
+		{
+			from: 1,
+			to: 2,
+			type: Family
+		},
+		{
+			from: 1,
+			to: 4,
+			type: Family
+		},
+		{
+			from: 3,
+			to: 8,
+			type: Family
+		},
+		{
+			from: 4,
+			to: 9,
+			type: Family
+		}
+	]
+}

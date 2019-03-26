@@ -1,0 +1,9 @@
+
+title: "Intervention",
+introText: "Some relationships are inherently dysfunctional, in particular those with people with little empathy. Again, a good friend might help you out in such a situation, if you are unable to do so yourself."
+width: 200.0,
+height:150.0,
+instances: [
+	{shape: U, transform: {scalex: 10, scaley: -10, dx: 80, dy:100}},
+	{shape: square, transform: {scalex: 35, scaley: 1, dx: 80, dy:50}},
+]

@@ -1,0 +1,46 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 80.577126,
+			y: 57.897453,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.7,
+			reliability: 0.5,
+			empathy: 0.25
+		},
+		{
+			index: 1,
+			x: 80.349594,
+			y: 104.23991,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.3,
+			reliability: 0.3,
+			empathy: 0.5
+		},
+		{
+			index: 2,
+			x: 39.9839,
+			y: 96.56908,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.5,
+			reliability: 0.9,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 0,
+			to: 1,
+			type: Abuse
+		},
+		{
+			from: 1,
+			to: 2,
+			type: Friendship
+		}
+	]
+}

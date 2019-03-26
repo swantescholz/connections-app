@@ -1,0 +1,141 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 140.39682,
+			y: 66.88255,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.6374174,
+			reliability: 0.30905056,
+			empathy: 0.1
+		},
+		{
+			index: 1,
+			x: 123.933136,
+			y: 123.716156,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.1170066,
+			reliability: 0.59754527,
+			empathy: 0.5
+		},
+		{
+			index: 2,
+			x: 113.22775,
+			y: 122.86618,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.3332184,
+			reliability: 0.25277615,
+			empathy: 0.5
+		},
+		{
+			index: 3,
+			x: 101.322296,
+			y: 124.35437,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.61303574,
+			reliability: 0.9848415,
+			empathy: 0.5
+		},
+		{
+			index: 4,
+			x: 87.184586,
+			y: 123.796295,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.6251463,
+			reliability: 0.28590477,
+			empathy: 0.5
+		},
+		{
+			index: 5,
+			x: 77.139366,
+			y: 123.98232,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.01492703,
+			reliability: 0.77631223,
+			empathy: 0.5
+		},
+		{
+			index: 6,
+			x: 66.7221,
+			y: 124.16835,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.9907228,
+			reliability: 0.6882345,
+			empathy: 0.5
+		},
+		{
+			index: 7,
+			x: 58.165062,
+			y: 67.059425,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.86767864,
+			reliability: 0.7462414,
+			empathy: 0.1
+		},
+		{
+			index: 8,
+			x: 65.43516,
+			y: 139.73038,
+			corners: 0,
+			angle: 0.0,
+			ego: 2.9,
+			reliability: 0.57003427,
+			empathy: 0.5
+		},
+		{
+			index: 9,
+			x: 156.97147,
+			y: 132.88097,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.012806594,
+			reliability: 0.8388903,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 0,
+			to: 1,
+			type: Abuse
+		},
+		{
+			from: 7,
+			to: 6,
+			type: Abuse
+		},
+		{
+			from: 7,
+			to: 5,
+			type: Abuse
+		},
+		{
+			from: 7,
+			to: 4,
+			type: Abuse
+		},
+		{
+			from: 0,
+			to: 2,
+			type: Abuse
+		},
+		{
+			from: 0,
+			to: 3,
+			type: Abuse
+		},
+		{
+			from: 8,
+			to: 9,
+			type: Friendship
+		}
+	]
+}

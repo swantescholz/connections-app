@@ -1,0 +1,29 @@
+{
+	timeToSimulate: 22.63316,
+	goals: [
+		{
+			personIndex: 0,
+			x: 87.213715,
+			y: 62.35762,
+			angle: 84.36067
+		},
+		{
+			personIndex: 1,
+			x: 93.9116,
+			y: 61.707848,
+			angle: -71.63128
+		},
+		{
+			personIndex: 2,
+			x: 170.03795,
+			y: 33.12542,
+			angle: -3.2264152
+		},
+		{
+			personIndex: 3,
+			x: 164.83914,
+			y: 68.07369,
+			angle: -2099.0842
+		}
+	]
+}

@@ -1,0 +1,126 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 67.95986,
+			y: 57.863144,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.70517474,
+			reliability: 0.023238122,
+			empathy: 0.5
+		},
+		{
+			index: 1,
+			x: 81.42615,
+			y: 93.315186,
+			corners: 7,
+			angle: 0.0,
+			ego: 0.54673976,
+			reliability: 0.009224832,
+			empathy: 0.5
+		},
+		{
+			index: 2,
+			x: 107.53423,
+			y: 127.39313,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.56294966,
+			reliability: 0.10449064,
+			empathy: 0.5
+		},
+		{
+			index: 3,
+			x: 180.08727,
+			y: 115.575775,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.6251463,
+			reliability: 0.28590477,
+			empathy: 0.5
+		},
+		{
+			index: 4,
+			x: 118.527115,
+			y: 104.85772,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.01492703,
+			reliability: 0.77631223,
+			empathy: 0.5
+		},
+		{
+			index: 5,
+			x: 138.06404,
+			y: 77.58777,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.9907228,
+			reliability: 0.6882345,
+			empathy: 0.5
+		},
+		{
+			index: 6,
+			x: 169.24222,
+			y: 45.583694,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.6,
+			reliability: 0.4,
+			empathy: 0.5
+		},
+		{
+			index: 7,
+			x: 98.21381,
+			y: 27.620113,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.73315203,
+			reliability: 0.57003427,
+			empathy: 0.5
+		},
+		{
+			index: 8,
+			x: 122.991165,
+			y: 27.000679,
+			corners: 8,
+			angle: 0.0,
+			ego: 0.012806594,
+			reliability: 0.8388903,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 3,
+			to: 0,
+			type: Crush
+		},
+		{
+			from: 2,
+			to: 7,
+			type: Crush
+		},
+		{
+			from: 4,
+			to: 8,
+			type: Hug
+		},
+		{
+			from: 0,
+			to: 6,
+			type: Hug
+		},
+		{
+			from: 4,
+			to: 5,
+			type: Hug
+		},
+		{
+			from: 5,
+			to: 7,
+			type: Hug
+		}
+	]
+}

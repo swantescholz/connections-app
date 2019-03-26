@@ -1,0 +1,86 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 21.029907,
+			y: 78.92318,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.5,
+			empathy: 0.5,
+			reliability: 0.95
+		},
+		{
+			index: 1,
+			x: 33.233364,
+			y: 77.95464,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.5,
+			empathy: 0.5,
+			reliability: 0.05
+		},
+		{
+			index: 2,
+			x: 45.824238,
+			y: 77.56724,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.5,
+			empathy: 0.5,
+			reliability: 0.15
+		},
+		{
+			index: 3,
+			x: 106.14112,
+			y: 66.44585,
+			corners: 5,
+			angle: 0.0,
+			ego: 0.5,
+			empathy: 0.5,
+			reliability: 0.15
+		},
+		{
+			index: 4,
+			x: 117.24542,
+			y: 68.82534,
+			corners: 3,
+			angle: 0.0,
+			ego: 0.5,
+			empathy: 0.5,
+			reliability: 0.05
+		},
+		{
+			index: 5,
+			x: 130.33264,
+			y: 71.204834,
+			corners: 4,
+			angle: 0.0,
+			ego: 0.5,
+			empathy: 0.5,
+			reliability: 0.95
+		},
+		{
+			index: 6,
+			x: 78.57865,
+			y: 98.172424,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.1,
+			empathy: 0.5,
+			reliability: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 0,
+			to: 6,
+			type: Family
+		},
+		{
+			from: 5,
+			to: 6,
+			type: Family
+		}
+	]
+}

@@ -1,0 +1,8 @@
+
+title: "Toxicity",
+introText: "Even some mutually loving relationships can turn out to be toxic for everyone involved."
+width: 200.0,
+height:150.0,
+instances: [
+	
+]

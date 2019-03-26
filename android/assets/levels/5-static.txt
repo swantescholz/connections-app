@@ -1,0 +1,8 @@
+title: "Your Very First Connections",
+introText: "Some people are more reliable than others. It is good to be connected to people you can rely on at all times."
+	width: 200.0,
+	height:150.0,
+instances: [
+	{shape: square, transform: {dx: 40.0,dy: 60.0,scalex: 25.0,scaley: 2.0,angle:-10}},
+	{shape: square, transform: {dx: 120.0,dy: 60.0,scalex: 25.0,scaley: 2.0,angle:10}},
+]

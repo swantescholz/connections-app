@@ -1,0 +1,12 @@
+
+title: "In the Clouds",
+introText: "Some connections can be incredibly joyful."
+width: 200.0,
+height:200.0,
+instances: [
+	{shape: cloud, transform: {scalex: 25, scaley: 10, dx: 50, dy:120}},
+	{shape: cloud, transform: {scalex: 25, scaley: 10, dx: 130, dy:140}},
+	{shape: cloud, transform: {scalex: 25, scaley: 10, dx: 80, dy:170}},
+	{shape: cloud, transform: {scalex: 25, scaley: 10, dx: 50, dy:170}},
+	{shape: square, transform: {scalex: 25, scaley: 1, dx: 140, dy:30, angle:15}},
+]

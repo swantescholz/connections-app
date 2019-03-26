@@ -4,7 +4,7 @@
 I programmed it in Kotlin, using the lovely KTX extension of libGDX.
 I hope this sourse code helps anybody who would like to program an Android game with Kotlin.
 
-You can find the [app in the Google Play Store].(https://play.google.com/store/apps/details?id=de.sscholz.connections)
+You can find the [app in the Google Play Store](https://play.google.com/store/apps/details?id=de.sscholz.connections).
 
 ## Credits
 

@@ -1,0 +1,22 @@
+
+title: "Food Chain",
+introText: "Often, work relations are structured in a very hierarchical manner. This is not necessarily the most productive way of doing things though. Lets mix things up!"
+width: 210.0,
+height:300.0,
+instances: [
+	{shape: bear, transform: {scalex: 20, scaley: 15, dx: 60, dy:210}},
+	{shape: bear, transform: {scalex: -20, scaley: 15, dx: 140, dy:210}},
+
+	{shape: duck, transform: {scalex: 16, scaley: 12, dx: 30, dy:160}},
+	{shape: duck, transform: {scalex: 16, scaley: 12, dx: 80, dy:160}},
+	{shape: duck, transform: {scalex: 16, scaley: 12, dx: 130, dy:160}},
+	{shape: duck, transform: {scalex: 16, scaley: 12, dx: 180, dy:160}},
+
+	{shape: snail, transform: {scalex: 12, scaley: -9, dx: 130, dy:90}},
+	{shape: snail, transform: {scalex: 12, scaley: -9, dx: 180, dy:90}},
+	{shape: snail, transform: {scalex: 12, scaley: -9, dx: 80, dy:90}},
+	{shape: snail, transform: {scalex: 12, scaley: -9, dx: 30, dy:90}},
+	{shape: snail, transform: {scalex: 12, scaley: 9, dx: 155, dy:60}},
+	{shape: snail, transform: {scalex: 12, scaley: 9, dx: 105, dy:60}},
+	{shape: snail, transform: {scalex: 12, scaley: 9, dx: 55, dy:60}},
+]

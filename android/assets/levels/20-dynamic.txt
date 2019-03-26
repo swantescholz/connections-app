@@ -1,0 +1,16 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 75.35117,
+			y: 178.75851,
+			corners: 0,
+			angle: 0.0,
+			ego: 0.6,
+			reliability: 0.7,
+			empathy: 0.9
+		}
+	],
+	connections: [
+	]
+}

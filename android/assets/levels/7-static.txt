@@ -1,0 +1,11 @@
+
+title: "A Night Out",
+introText: "Unrequieted connections can be quite annoying, in particular if you just want to have a fun night with your friends. But luckily, they have your back."
+width: 200.0,
+height:150.0,
+instances: [
+	{shape: square, transform: {dx: 40.0,dy: 60.0,scalex: 25.0,scaley: 2.0,angle:0}},
+	{shape: square, transform: {dx: 120.0,dy: 60.0,scalex: 25.0,scaley: 2.0,angle:0}},
+	{shape: square, transform: {dx: 100.0,dy: 65.0,scalex: 3.0,scaley: 6.0,angle:0}},
+	{shape: square, transform: {dx: 60.0,dy: 65.0,scalex: 3.0,scaley: 6.0,angle:0}},
+]

@@ -1,0 +1,11 @@
+
+title: "Life",
+introText: "Sometimes, life can be a complicated mess. Still, we should try to figure things out, even if it takes time.\n(Hint: In this level, each connection type is used exactly once, and each person is part of exactly one connection.)"
+width: 200.0,
+height:150.0,
+instances: [
+	{shape: elephant, transform: {scalex: 20, scaley: -15, dx: 50, dy:40}},
+	{shape: duck, transform: {scalex: 20, scaley: -15, dx: 150, dy:40}},
+	{shape: bear, transform: {scalex: 20, scaley: -15, dx: 150, dy:110}},
+	{shape: snail, transform: {scalex: 20, scaley: -15, dx: 50, dy:110}},
+]

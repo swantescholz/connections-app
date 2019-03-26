@@ -1,0 +1,11 @@
+
+title: "Home",
+introText: "As we've seen, life can be a mess, with lots of complicated connections between people.\nAt the end though, what matters most is your connection with yourself: Are you happy? Content? Comfortable in your own skin? Ultimately, you are the one and only person you have to spend the rest of your life with. Revel in that great company!\nTake care!"
+width: 200.0,
+height:200.0,
+instances: [
+	{shape: unicorn, transform: {scalex: 20, scaley: 15, dx: 80, dy:150}},
+	{shape: unicorn, transform: {scalex: -20, scaley: 15, dx: 120, dy:120}},
+	{shape: unicorn, transform: {scalex: 20, scaley: 15, dx: 80, dy:100}},
+	{shape: unicorn, transform: {scalex: -30, scaley: 22, dx: 100, dy:60, angle:-15}},
+]

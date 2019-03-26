@@ -1,0 +1,8 @@
+
+title: "Mismatch",
+introText: "Sometimes, it turns out that two people are simply not compatible in the long run. Try something new then."
+width: 200.0,
+height:150.0,
+instances: [
+	
+]

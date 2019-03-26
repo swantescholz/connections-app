@@ -1,0 +1,17 @@
+
+title: "In the Desert",
+introText: "While in everyday life, codependency is quite an unhealthy thing, in emergency situations, you might want to be able to blindly trust and rely on each other, sticking together so that you can overcome any challenge."
+width: 250.0,
+height:550.0,
+instances: [
+	{shape: square, transform: {dx: 25.0,dy: 420.0,scalex: 25.0,scaley: 3.0,angle:-5}},
+	{shape: square, transform: {dx: 150.0,dy: 400.0,scalex: 50.0,scaley: 2.0,angle:-5}},
+	{shape: square, transform: {dx: 210.0,dy: 320.0,scalex: 50.0,scaley: 3.0,angle:5}},
+	{shape: square, transform: {dx: 85.0,dy: 275.0,scalex: 35.0,scaley: 3.0,angle:5}},
+
+	{shape: square, transform: {dx: 55.0,dy: 200.0,scalex: 55.0,scaley: 3.0,angle:-5}},
+	{shape: U, transform: {dx: 40.0,dy: 40.0,scalex: 35.0,scaley: 35.0,angle:0}},
+
+	{shape: elephant, transform: {scalex: 20, scaley: 15, dx: 80, dy:460}},
+	{shape: elephant, transform: {scalex: 20, scaley: 15, dx: 120, dy:480}},
+]

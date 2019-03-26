@@ -1,0 +1,31 @@
+{
+	persons: [
+		{
+			index: 0,
+			x: 28.461151,
+			y: 36.709305,
+			corners: 0,
+			angle: -742.8098,
+			ego: 0.5,
+			reliability: 0.3,
+			empathy: 0.5
+		},
+		{
+			index: 1,
+			x: 175.23212,
+			y: 21.807892,
+			corners: 0,
+			angle: -750.02783,
+			ego: 0.4,
+			reliability: 0.3,
+			empathy: 0.5
+		}
+	],
+	connections: [
+		{
+			from: 0,
+			to: 1,
+			type: Love
+		}
+	]
+}

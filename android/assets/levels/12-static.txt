@@ -1,0 +1,10 @@
+
+title: "Work-Life-Balance",
+introText: "Sometimes, work and your private life can be in conflict."
+width: 200.0,
+height:150.0,
+instances: [
+	{shape: circle, transform: {scalex: 6, scaley: 6, dx: 40, dy:50}},
+	{shape: circle, transform: {scalex: 6, scaley: 6, dx: 110, dy:50}},
+	{shape: cloud, transform: {scalex: 16, scaley: 5, dx: 60, dy:120}},
+]
