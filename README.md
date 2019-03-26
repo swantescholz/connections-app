@@ -6,7 +6,7 @@ I hope this sourse code helps anybody who would like to program an Android game 
 
 You can find the [free app in the Google Play Store](https://play.google.com/store/apps/details?id=de.sscholz.connections).
 
-![Connections](screenshot1.jpg "This is how the game looks like")
+![Connections](android/screenshot1.jpg "This is how the game looks like")
 
 ## Credits
 
