@@ -1,4 +1,4 @@
-# Connections - And Android App using libGDX/KTX, written in Kotlin
+# Connections - An Android Game using libGDX/KTX/Box2D, written in Kotlin
 
 *Connections* is an Android game using physical rigid body physics (via Box2D) to represent human interactions.
 I programmed it in Kotlin, using the lovely KTX extension of libGDX.
